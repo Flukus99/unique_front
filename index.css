@@ -1,0 +1,28 @@
+.spiner{
+    display: none;
+}
+.active{
+    display: initial;
+}
+.no-active{
+    display: none;
+}
+.container{
+    
+    max-width: 408px;
+}
+
+#peso,#talla{
+    width: 21rem;
+}
+.container_buton,.active{
+    display: grid;
+    place-items: center;
+    margin-top: 100px;
+}
+.container_resultado{
+    display: grid;
+    place-items: center;
+    margin-top: 70px;
+    font-size: 50px;
+}
